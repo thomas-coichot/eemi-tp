@@ -53,6 +53,10 @@ Développer une application Flutter permettant de **consulter, créer et modifie
 - Récupérer les données du produit via : ```GET https://eemi-39b84a24258a.herokuapp.com/products/{uuid}```
 - Afficher tous les champs, incluant les descriptions et le prix.
 
+### 5. Bonus - Rechercher un produit
+
+- Créer une barre de recherche sur la page de liste.
+
 ---
 
 ## 💡 Contraintes techniques
@@ -63,7 +67,7 @@ Développer une application Flutter permettant de **consulter, créer et modifie
 ## ✅ Bonus (facultatif)
 
 - Affichage de messages de succès/erreur après une requête.
-- Gestion d’un état de chargement (spinners, feedback visuel).
+- Gestion d’un état de chargement (shimmer, progress-indicator).
 - Scroll infini pour charger plus de produits.
 
 ---
