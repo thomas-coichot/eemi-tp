@@ -1,8 +1,8 @@
 # Sujet de Test Flutter – Gestion de Produits
 
-## 🎯 Objectif
+## Objectif
 
-Développer une application Flutter permettant de **consulter, créer et modifier des produits** à l’aide d’une API REST.
+Développer une application Flutter permettant de **consulter, créer, modifier et supprimer des produits** à l’aide d’une API REST.
 
 ---
 
@@ -13,8 +13,8 @@ Développer une application Flutter permettant de **consulter, créer et modifie
 - Récupérer la liste des produits via le endpoint : ```GET https://eemi-39b84a24258a.herokuapp.com/products```
 - Afficher chaque produit dans une **liste scrollable**, avec :
     - **Nom** du produit
-    - **Description courte**
     - **Image**
+    - **Prix**
 
 ---
 
@@ -23,8 +23,7 @@ Développer une application Flutter permettant de **consulter, créer et modifie
 - Ajouter un bouton **“Ajouter un produit”** sur la page de liste.
 - Rediriger vers une page avec un **formulaire** contenant les champs suivants :
     - `name` : Nom du produit
-    - `short_description` : Description courte
-    - `long_description` : Description longue
+    - `description` : Description
     - `price` : Prix
     - `image` : URL de l’image
 - Validation des champs du formulaire.
@@ -34,39 +33,36 @@ Développer une application Flutter permettant de **consulter, créer et modifie
 
 ### 3. Édition d’un produit
 
-- Depuis la page de détails, ajouter un bouton **“Modifier”**.
-- Rediriger vers un **formulaire pré-rempli** avec les informations du produit.
+- Au clic sur un produit, rediriger vers un **formulaire** avec les informations du produit.
 - Soumettre les modifications via une requête ```PUT https://eemi-39b84a24258a.herokuapp.com/products/{uuid}```
+- Validation des champs du formulaire.
 - Rediriger vers la page de liste des produits.
 
 ---
 
-### 3. Suppression d’un produit
+### 5. Suppression d’un produit
 
-- Depuis la page de détails, ajouter un bouton **“Supprimer”**.
+- Depuis la liste des produits, ouvrir une modal pour supprimer un produit.
 - Soumettre la suppression via une requête ```DELETE https://eemi-39b84a24258a.herokuapp.com/products/{uuid}```
 - Rediriger vers la page de liste des produits.
 
-### 4. Détail d’un produit
+---
 
-- Au clic sur un produit, ouvrir une modalBottomSheet affichant les détails du produit.
-- Récupérer les données du produit via : ```GET https://eemi-39b84a24258a.herokuapp.com/products/{uuid}```
-- Afficher tous les champs, incluant les descriptions et le prix.
+### 6. Bonus - Rechercher un produit
 
-### 5. Bonus - Rechercher un produit
-
-- Créer une barre de recherche sur la page de liste.
+- Créer une barre de recherche sur le listing de produits avec un debounce pour éviter de spam l'API.
+- Rechercher via le endpoint : ```GET https://eemi-39b84a24258a.herokuapp.com/products?search={query}```
 
 ---
 
-## 💡 Contraintes techniques
+## Contraintes techniques
 
 - Utiliser le package [`http`](https://pub.dev/packages/http) pour les appels réseau.
-- Utiliser le package [`go_router`](https://pub.dev/packages/go_router) pour gérer ou la **navigation**.
+- Utiliser le package [`go_router`](https://pub.dev/packages/go_router) pour gérer la **navigation**.
 
-## ✅ Bonus (facultatif)
+## Bonus (facultatif)
 
-- Affichage de messages de succès/erreur après une requête.
+- Affichage de messages de succès/erreur après l'ajout, modification ou suppression d'un produit.
 - Gestion d’un état de chargement (shimmer, progress-indicator).
 - Scroll infini pour charger plus de produits.
 
