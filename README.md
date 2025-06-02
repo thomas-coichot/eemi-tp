@@ -40,7 +40,7 @@ Développer une application Flutter permettant de **consulter, créer, modifier 
 
 ---
 
-### 5. Suppression d’un produit
+### 4. Suppression d’un produit
 
 - Depuis la liste des produits, ouvrir une modal pour supprimer un produit.
 - Soumettre la suppression via une requête ```DELETE https://eemi-39b84a24258a.herokuapp.com/products/{uuid}```
@@ -48,7 +48,7 @@ Développer une application Flutter permettant de **consulter, créer, modifier 
 
 ---
 
-### 6. Bonus - Rechercher un produit
+### 5. Bonus - Rechercher un produit
 
 - Créer une barre de recherche sur le listing de produits avec un debounce pour éviter de spam l'API.
 - Rechercher via le endpoint : ```GET https://eemi-39b84a24258a.herokuapp.com/products?search={query}```
