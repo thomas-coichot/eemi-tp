@@ -73,7 +73,7 @@ Développer une application Flutter permettant de **consulter, créer, modifier 
 ## Rendu
 
 - Heure maximum du dernier commit : ```11h00```
-- Envoyer le lien de votre projet **Github/GitLab** à l'adresse mail suivante : ```coichot.t@gmail.com```. ⚠️ N'oublier de mettre le repo en publique ⚠️
+- Envoyer le lien de votre projet **Github/GitLab** à l'adresse mail suivante : ```coichot.t@gmail.com```. ⚠️ N'oubliez pas de mettre le repo en publique ⚠️
 - Objet du mail : ```EEMI TP Flutter - NOM Prénom```
 
 
