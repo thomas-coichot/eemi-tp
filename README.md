@@ -4,6 +4,8 @@
 
 Développer une application Flutter permettant de **consulter, créer, modifier et supprimer des produits** à l’aide d’une API REST.
 
+Swagger : https://eemi-39b84a24258a.herokuapp.com/api-docs/
+
 ---
 
 ## Fonctionnalités attendues
@@ -72,7 +74,7 @@ Développer une application Flutter permettant de **consulter, créer, modifier 
 
 ## Rendu
 
-- Heure maximum du dernier commit : ```11h00```
+- Heure maximum du dernier commit : ```11h50```
 - Envoyer le lien de votre projet **Github/GitLab** à l'adresse mail suivante : ```coichot.t@gmail.com```. ⚠️ N'oubliez pas de mettre le repo en publique ⚠️
 - Objet du mail : ```EEMI TP Flutter - NOM Prénom```
 
