@@ -74,7 +74,7 @@ Swagger : https://eemi-39b84a24258a.herokuapp.com/api-docs/
 
 ## Rendu
 
-- Heure maximum du dernier commit : ```11h00```
+- Heure maximum du dernier commit : ```11h50```
 - Envoyer le lien de votre projet **Github/GitLab** à l'adresse mail suivante : ```coichot.t@gmail.com```. ⚠️ N'oubliez pas de mettre le repo en publique ⚠️
 - Objet du mail : ```EEMI TP Flutter - NOM Prénom```
 
