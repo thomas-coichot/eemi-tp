@@ -4,6 +4,8 @@
 
 Développer une application Flutter permettant de **consulter, créer, modifier et supprimer des produits** à l’aide d’une API REST.
 
+Swagger : https://eemi-39b84a24258a.herokuapp.com/api-docs/
+
 ---
 
 ## Fonctionnalités attendues
